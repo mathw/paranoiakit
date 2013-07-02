@@ -1,0 +1,9 @@
+<h1>All Locations</h1>
+<a .btn href=@{AddLocationR}>Add Location
+$forall (sector, locations) <- groupedLocations
+    <h2>#{sectorName sector} Sector</h2>
+        <ul>
+            $forall Entity locationId location <- locations
+                <li>
+                    <a href=@{ViewLocationR locationId}>#{locationName location}
+            

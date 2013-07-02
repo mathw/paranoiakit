@@ -1,0 +1,12 @@
+<h1>Add Location
+$maybe msg <- message
+    $case msg
+        $of Left errMsg
+            <div .alert .alert-error>
+                #{errMsg}
+        $of Right succMsg
+            <div .alert .alert-success>
+                #{succMsg}
+<form method="post" action="/location/new">
+    ^{formWidget}
+    <input .btn .btn-primary type="submit" value="Add Location">

@@ -6,3 +6,5 @@
 
 / HomeR GET POST
 /location/new AddLocationR GET POST
+/location/list ListLocationsR GET
+/location/view/#LocationId ViewLocationR GET

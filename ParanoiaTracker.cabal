@@ -23,6 +23,7 @@ library
                      Handler.AddLocation
                      Handler.ListLocations
                      Handler.ViewLocation
+                     Handler.ViewSector
 
     if flag(dev) || flag(library-only)
         cpp-options:   -DDEVELOPMENT

@@ -1,0 +1,9 @@
+<h1>#{sectorName sector}
+
+<h2>Locations in this sector
+
+<ul>
+    $forall Entity locationId location <- locations
+        <li>
+            <a href=@{ViewLocationR locationId}>
+                #{locationName location}

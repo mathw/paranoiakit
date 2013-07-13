@@ -4,7 +4,8 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 
-/ HomeR GET POST
+/ HomeR GET
 /location/new AddLocationR GET POST
 /location/list ListLocationsR GET
 /location/view/#LocationId ViewLocationR GET
+/sector/view/#SectorId ViewSectorR GET
